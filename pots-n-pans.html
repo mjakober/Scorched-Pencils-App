@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Pots 'n Pans</title>
+
+<!-- CSS STYLES 
+=========================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/normalize-min.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/scorchedStyles.css" />
+
+</head>
+
+<body>
+	<div data-role="page" class="pots-n-pans-container">
+		<div data-role="header" data-position="right" id="header">
+			<h1>Pots 'n Pans</h1>
+			<a href="#mypanel" data-icon="bullets" dataiconpos="right">Menu</a>
+		</div>
+
+		<div data-role="panel" data-position="left" data-display="overlay" id="mypanel">
+			<ul data-role="listview">
+				<li data-icon="delete"><a data-rel="close" class="panel-list ">Close Menu</a></li>
+				<li><a href="index.html" data-transition="flip" class="panel-list">Home</a></li>
+				<li><a href="stuedski-hooch.html" data-transition="flip" class="panel-list">Stuedski &amp; Hooch</a></li>
+				<!-- <li><a href="creepy-acres.html" data-transition="flip" class="panel-list">Creepy Acres</a></li> -->
+				<li class="active">Pots 'n Pans</li>
+				<li><a href="contact.html" data-transition="flip" class="panel-list">Contact</a></li>
+			</ul>
+		</div>
+
+		<div id="stage">
+			<div id="big-logo">
+				<img src="img/pots-pans.svg" alt="Pots n Pans Logo" title="Pots n Pans Logo" width="100%"/>
+			</div>
+
+			<div class="main-buttons left radius">
+				<a href="pnp-cast.html" data-transition="flip"><h1 class="button-tittle right zoom green">Cast</h1></a>
+			</div>
+
+			<div class="main-buttons right radius">
+				<a href="pnp-comics.html" data-transition="flip"><h1 class="button-tittle right zoom green">Comics</h1></a>
+			</div>
+
+			<div class="main-buttons left radius">
+				<a href="pnp-videos.html" data-transition="flip"><h1 class="button-tittle right zoom green">Videos</h1></a>
+			</div>
+		</div>
+
+	</div>
+<!-- JAVASCRIPT 
+=========================================================================-->
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+</body>
+</html>

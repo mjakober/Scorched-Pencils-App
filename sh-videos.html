@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Stuedski &amp; Hooch Videos</title>
+
+<!-- CSS STYLES 
+=========================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/normalize-min.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/scorchedStyles.css" />
+
+</head>
+
+<body>
+	<div data-role="page" class="stuedski-hooch-container">
+		<div data-role="header" data-position="right" id="header">
+			<h1>Stuedski &amp; Hooch</h1>
+			<a href="#mypanel" data-icon="bullets" dataiconpos="right">Menu</a>
+		</div>
+
+		<div data-role="panel" data-position="left" data-display="overlay" id="mypanel">
+			<ul data-role="listview">
+				<li data-icon="delete"><a data-rel="close" class="panel-list ">Close Menu</a></li>
+				<li><a href="index.html" data-transition="flip" class="panel-list">Home</a></li>
+				<li><a href="stuedski-hooch.html" data-transition="flip" class="panel-list">Stuedski &amp; Hooch</a></li>
+				<!-- <li><a href="creepy-acres.html" data-transition="flip" class="panel-list">Creepy Acres</a></li> -->
+				<li><a href="pots-n-pans.html" data-transition="flip" class="panel-list">Pots 'n Pans</a></li>
+				<li><a href="contact.html" data-transition="flip" class="panel-list">Contact</a></li>
+			</ul>
+		</div>
+		<div id="stage">
+			<div id="big-logo">
+				<img src="img/stuedski-hooch.svg" alt="Stuedski & Hooch Logo" title="Stuedski & Hooch Logo" width="100%"/>
+			</div>
+
+			<div data-role="collapsible" class="comic-strip">
+				<h3>Stuedski &amp; Hooch Videos 1</h3>
+				<video controls>
+					<source src="videos/Shwoodscomp1.m4v" type="video/mp4">
+				</video>
+			</div>
+		</div>
+	</div>
+<!-- JAVASCRIPT 
+=========================================================================-->
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+</body>
+</html>

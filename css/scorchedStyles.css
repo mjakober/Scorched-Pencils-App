@@ -1,0 +1,340 @@
+/* CSS Styles Created by MJ Designs (mjakoberdesigns@gmail.com) Copyright(c) MJ Designs 2015, All Rights Reserved do not use without WRITTEN permission */
+
+/*		Table of Contents
+========================================================================= */
+/*		1.0 - FONTS
+		2.0 - TEXTS
+		3.0 - BODY
+		4.0 - HEADER / NAVIGATION
+			4.1 - PANEL
+		5.0 - CONTENT 
+*/
+
+
+
+/*		1.0 - FONTS 
+========================================================================= */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,800italic,400,800,700,600);
+@font-face {
+	font-family: 'Comix Heavy';
+	src: url('../fonts/Comix-Heavy.ttf');
+}
+@font-face {
+	font-family: 'Mono Social Icons Font';
+	src: url('../fonts/MonoSocialIconsFont-1.10.eot');
+	src: url('../fonts/MonoSocialIconsFont-1.10.eot?#iefix')
+format('embedded-opentype'),
+	url('../fonts/MonoSocialIconsFont-1.10.woff') format('woff'),
+	url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+	url('../fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont')
+format('svg');
+	src: url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/*		2.0 - TEXTS 
+========================================================================= */
+h1, h2, h3, h4, h5, h6, li {
+	font-family: 'Comix Heavy';
+	-webkit-font-smoothing: subpixel-antialiased;
+	-webkit-font-smoothing: subpixel-antialiased;
+	   -moz-font-smoothing: subpixel-antialiased;
+		-ms-font-smoothing: subpixel-antialiased;
+		 -o-font-smoothing: subpixel-antialiased;
+			font-smoothing: subpixel-antialiased;
+	text-shadow: none;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+	-webkit-font-smoothing: subpixel-antialiased;
+	-webkit-font-smoothing: subpixel-antialiased;
+	   -moz-font-smoothing: subpixel-antialiased;
+		-ms-font-smoothing: subpixel-antialiased;
+		 -o-font-smoothing: subpixel-antialiased;
+			font-smoothing: subpixel-antialiased;
+	text-shadow: none;	
+}
+
+
+/*		3.0 - BODY 
+========================================================================= */
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+body {
+	width: 100%;
+	background: #f4ea49 !important;
+}
+#social-icons {
+	width: 100%;
+	padding: 1em;
+	font-family: 'Mono Social Icons Font';
+	font size: 8em !important;
+	-webkit-font-smoothing: subpixel-antialiased;
+	   -moz-font-smoothing: subpixel-antialiased;
+		-ms-font-smoothing: subpixel-antialiased;
+		 -o-font-smoothing: subpixel-antialiased;
+			font-smoothing: subpixel-antialiased;
+	text-align: center;	
+}
+.active {
+	background: #000027 !important;
+	color: #f4ea49 !important;
+	text-shadow: none !important;
+	border-color: #f4ea49 !important;
+}
+.center {
+ 	margin: 0 auto;
+}
+.clear {
+	clear: both;
+}
+.left {
+	float: left;
+}
+.green {
+	color: #336600;
+}
+	.green:hover {
+		color: #4e1f5b;
+	}
+.radius {
+	-webkit-border-radius: 12px;
+	   -moz-border-radius: 12px;
+			border-radius: 12px;	
+}
+.right {
+	float: right;
+}
+.social-icon {
+	padding: .25em;
+	font-family: 'Mono Social Icons Font';
+	font-size: 5em !important;
+	text-decoration: none !important;
+	text-shadow: none !important;	
+	-webkit-font-smoothing: subpixel-antialiased;
+	   -moz-font-smoothing: subpixel-antialiased;
+		-ms-font-smoothing: subpixel-antialiased;
+		 -o-font-smoothing: subpixel-antialiased;
+			font-smoothing: subpixel-antialiased;
+
+}
+.text-center {
+	text-align: center;
+}
+.zoom {
+	-webkit-transition: -webkit-transform 500ms ease;
+	   -moz-transition: -moz-transform 500ms ease;
+			transition: transform 500ms ease;	
+}
+.zoom:hover {
+	-webkit-transform: scale(1.14);
+	   -moz-transform: scale(1.14);
+		 -o-transform: scale(1.14);
+			transform: scale(1.14);
+	-webkit-transform-origin: top left;
+	   -moz-transform-origin: top left;
+		 -o-transform-origin: top left;
+			transform-origin: top left;
+}
+.zoom-2 {
+	-webkit-transition: -webkit-transform 500ms ease;
+	   -moz-transition: -moz-transform 500ms ease;
+			transition: transform 500ms ease;	
+}
+.zoom-2:hover {
+	-webkit-transform: scale(1.2);
+	   -moz-transform: scale(1.2);
+		 -o-transform: scale(1.2);
+			transform: scale(1.2);
+	-webkit-transform-origin: center;
+	   -moz-transform-origin: center;
+		 -o-transform-origin: center;
+			transform-origin: center;
+}
+
+
+/*		4.0 - HEADER / NAVIGATION 
+========================================================================= */
+#header {
+	background: #000027;
+	opacity: 1.0 !important;
+	color: #f4ea49;
+	font-size: 1.5em;
+	border: none;
+}
+#header a {
+	background: #000027;
+	margin: 1em .5em;
+	color: #fcfcfc;
+	text-shadow: none !important;
+}
+#header a:hover {
+	background: #4e1f5b;
+}
+	/*		4.1 - PANEL
+	===================================================================== */
+	#mypanel {
+		background: #f4ea49;
+		border-color: #5b5503 !important;
+	}
+	.panel-list {
+		background: #242200 !important;
+		color: #fcfcfc !important;
+		font-family: 'Comix Heavy', cursive;
+		-webkit-font-smoothing: antialiased;
+		border-color: #f4ea49 !important;
+		text-decoration: none !important;
+		text-shadow: none !important;
+	}
+	a.panel-list:hover {
+		background: #4e1f5b !important;
+		color: #f4ea49 !important;
+	}
+
+
+/*		5.0 - CONTENT 
+========================================================================= */
+video {
+	width: 100%;
+	margin: 0 auto;
+}
+#big-logo {
+	width: 100%;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 1em 0;
+}
+#stage {
+	width: 100%;
+	height: auto;
+	padding: 1em;
+}
+.app-container {
+	width: 100%;
+	max-width: 1280px;
+	background: url(../img/city-front.svg) no-repeat !important;
+	background-size: 100% !important;
+	background-position: top !important;
+	border: none;
+}
+.button-tittle {
+	margin: .5em 0;
+	font-size: 6em;
+	-webkit-font-smoothing: antialiased;
+}
+.comics {
+	width: 100%;
+	margin: .5em 0;
+}
+.cast {
+	width: 45%;
+	height: auto;
+	margin: 1em;
+}
+	.cast h1 {
+		margin-top: 0;
+		color: #000027;
+		font-size: 4em;
+	}
+	.cast-box {
+		background: #f4ea49;
+		padding: .25em .125em;
+		border: 5px solid #000;
+	}
+.comic-strip a.ui-collapsible-heading-toggle {
+	background: #000027 !important;
+	color: #f4ea49;
+	text-shadow: none !important;
+}
+	.comic-strip a.ui-collapsible-heading-toggle:hover {
+		color: #f5861f;
+	}
+	.ui-collapsible-content {
+		background: #f5861f !important;
+	}
+.contact-container {
+	width: 100%;
+	max-width: 1280px;
+	background: url(../img/alley.svg) no-repeat !important;
+	background-size: 100% !important;
+	background-position: top !important;
+	border: none;
+}
+.main-buttons {
+	display: inline-block;
+	width: 45%;
+	height: auto;
+	background: #f4ea49;
+	margin: 1em;
+	padding: 1em;
+	border: 3px solid #000;
+}
+	.main-buttons img {
+		width: 100%;
+	}
+.pots-n-pans-container {
+	width: 100%;
+	max-width: 1280px;
+	background: url(../img/pnp-background.png) no-repeat !important;
+	background-size: 100% !important;
+	background-position: top !important;
+	border: none;		
+}
+.stuedski-hooch-container {
+	width: 100%;
+	max-width: 1280px;
+	background: url(../img/s&h-background.svg) no-repeat !important;
+	background-size: 100% !important;
+	background-position: top !important;
+	border: none;
+}
+
+
+/*		5.0 - CONTACT 
+========================================================================= */
+.contact-info {
+	color: #fff;
+	font-size: 2em; 
+}
+
+
+
+/* 6.0 - Media Queries
+========================================================================= */
+@media screen and (min-width: 700px) and (max-width: 810px) {
+	.button-tittle {
+		font-size: 2.8em; 
+	}
+}
+
+
+@media screen and (min-width: 100px) and (max-width: 699px) {
+	#header {
+		height: 65px;
+		font-size: .8em;
+		padding-top: 1.4em;
+	}
+	.app-container, .contact-container, .pots-n-pans-container, .stuedski-hooch-container {
+		background-position: top !important;
+	}
+	.button-tittle {
+		font-size: 2.2em; 
+	}
+	.cast {
+		width: 100%;
+		margin: 1em 0;
+	}
+	.cast h1 {
+		font-size: 2.5em;
+	}
+	.main-buttons {
+		width: 100%;
+		margin: 1em 0;
+		padding: .5em;
+	}
+}
